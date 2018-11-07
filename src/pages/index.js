@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import Header from '../components/header'
 import Layout from '../components/layout'
 import Image from '../components/image'
 
 const IndexPage = () => (
   <Layout>
+    <Header/> 
     <div className="Hero">
       <div className="HeroGroup">
         <h1>Learn to design and code React apps</h1>
