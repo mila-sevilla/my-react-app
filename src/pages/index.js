@@ -5,6 +5,7 @@ import Header from '../components/header'
 import Layout from '../components/layout'
 import Image from '../components/image'
 import Card from '../components/Card';
+import Section from '../components/Section';
 
 const IndexPage = () => (
   <Layout>
@@ -57,6 +58,16 @@ const IndexPage = () => (
             image={require('../images/wallpaper4.jpg')}/>
         </div>
       </div>
+
+      <Section
+        image={require('../images/wallpaper2.jpg')}
+        logo={require('../images/logo-react.png')}
+        title="React for Designers"
+        text="React is component-based, similar to how you use Components in Figma in order to reuse the elements in powerful ways. This in turn allows for better collaboration between teammates. With this course, you'll learn how to build and animate your site from scratch. Create highly customizable components for your design system. A 6-hour course for designers, by designers "
+      
+       />
+
+
     </div>
   </Layout>
 )
